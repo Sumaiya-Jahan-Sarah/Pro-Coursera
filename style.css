@@ -1,6 +1,12 @@
 .btn-sky {
-    background-color: #289BDE;
+    background-color: white;
+    border: #289BDE solid 1px;
+    color: #289BDE;
+}
 
+.btn-sky:hover {
+    background-color: #289BDE;
+    color: white;
 }
 
 .bg-sky {
@@ -11,16 +17,49 @@
     color: #289BDE;
 }
 
+.btn-regi {
+    color: #289BDE;
+}
+
+.btn-regi:hover {
+    color: #289BDE;
+}
+
 .golden-star {
     color: gold;
 }
 
+.right-angle {
+    width: 25px;
+    border-radius: 50%;
+    background-color: #289BDE;
+    height: 25px;
 
-.bg-light-black {
+}
+
+.left-angle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #289BDE;
+    background-color: #F4FAFD;
+}
+
+.bg-body-sky {
+    background-color: #F4FAFD;
+}
+
+.bg-body-black {
     background-color: #161616;
 
 }
 
 .color-muted {
     color: #4A4A4A;
+}
+
+.social {
+    background-color: #4A4A4A;
+    padding: 10px;
+    border-radius: 50%;
 }
